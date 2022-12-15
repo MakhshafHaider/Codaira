@@ -1866,6 +1866,7 @@ box-shadow:         7px 7px 0px 0px rgba(133, 136, 136, 0.1);
 #footer {
   font-size: 14px;
   background: #37517e;
+
 }
 
 #footer .footer-newsletter {
@@ -1947,6 +1948,17 @@ box-shadow:         7px 7px 0px 0px rgba(133, 136, 136, 0.1);
   font-family: "Jost", sans-serif;
   color: #5e5e5e;
 }
+.footer-links{
+  text-align: center;
+}
+.footer-heading{
+  padding-top: 30px;
+
+  color: #ffffff;
+}
+.social-links{
+  font-size: 30px;
+}
 
 #footer .footer-top h4 {
   font-size: 16px;
@@ -2017,8 +2029,8 @@ box-shadow:         7px 7px 0px 0px rgba(133, 136, 136, 0.1);
 }
 
 #footer .footer-bottom {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
 }
 

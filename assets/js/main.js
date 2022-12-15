@@ -18,8 +18,12 @@
       return document.querySelector(el)
     }
   }
-//STMP EMAIL
-
+//Form clear
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
   /**
    * Easy event listener function
    */
